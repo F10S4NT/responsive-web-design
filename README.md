@@ -1,4 +1,4 @@
-# 01-responsive-web-design
+# responsive-web-design
 Curso diseño web responsiva para certificación 
 
 En esta certificación de Diseño Web Responsivo, aprenderás los lenguajes que los desarrolladores usan para construir páginas web: HTML (Lenguaje de Marcado de Hipertexto) para el contenido, y CSS (hojas de estilo en cascada) para el diseño.
