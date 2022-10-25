@@ -36,4 +36,5 @@ h1 {
   width: 100px;
   height: 25px;
   background-color: white;
+  opacity: 0.5;
 }
