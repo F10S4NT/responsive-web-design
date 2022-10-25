@@ -14,11 +14,11 @@ h1 {
 }
 
 .red {
-  background: rgb(255,0,0);
+  background: linear-gradient(90deg);
 }
 .green {
-  background-color: #007F00;
+  background-color: #007f00;
 }
 .blue {
-    background-color: hsl(240,100%,50%);
+  background-color: hsl(240, 100%, 50%);
 }
