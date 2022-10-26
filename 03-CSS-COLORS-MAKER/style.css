@@ -24,7 +24,7 @@ h1 {
 
 .green {
   background: linear-gradient(#55680d, #71f53e, #116c31);
-  box-shadow: 0 0 20px 0 rgba(83,14,14,0.8);
+  box-shadow: 0 0 20px 0 green;
 }
 .blue {
   background: linear-gradient(
@@ -32,7 +32,7 @@ h1 {
     hsl(223, 90%, 60%),
     hsl(240, 56%, 42%)
   );
-  box-shadow: 0 0 0 5px blue;
+  box-shadow: 0 0 20px 0px blue;
 }
 
 .sleeve {
