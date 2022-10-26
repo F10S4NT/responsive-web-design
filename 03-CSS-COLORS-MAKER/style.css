@@ -32,7 +32,7 @@ h1 {
     hsl(223, 90%, 60%),
     hsl(240, 56%, 42%)
   );
-  box-shadow: 0 0 20px 0px blue;
+  box-shadow: 0 0 20px 0 hsla(233, 59%, 31%, 0.8);
 }
 
 .sleeve {
