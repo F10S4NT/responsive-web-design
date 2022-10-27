@@ -33,34 +33,42 @@
       </fieldset>
 
       <fieldset>
-            <label for="personal-account"
-            ><input type="radio" name="account-type" id="personal-account" />
-            Personal Account</label
-            >
-            <label for="business-account"
-            ><input type="radio" name="account-type" id="business-account" />
-            Business Account</label
-            >
-            <label for="terms-and-conditions"
-            ><input type="checkbox" required id="terms-and-conditions" /> 
-            I accept the <a href="">terms and conditions</a></label
-            >
+        <label for="personal-account"
+          ><input type="radio" name="account-type" id="personal-account" />
+          Personal Account</label
+        >
+        <label for="business-account"
+          ><input type="radio" name="account-type" id="business-account" />
+          Business Account</label
+        >
+        <label for="terms-and-conditions"
+          ><input type="checkbox" required id="terms-and-conditions" /> I accept
+          the <a href="">terms and conditions</a></label
+        >
       </fieldset>
 
       <fieldset>
-            <label>Upload a profile picture: <input type="file"></input></label>
-            <label>Input your age (years):<input type="number" min="13" max="120"></input></label>
-            <label>How did you hear about us?
-                <select>
-                    <option value="">(select one)</option>
-                    <option value="1">freeCodeCamp News</option>
-                    <option value="2">freeCodeCamp YouTube Channel</option>
-                    <option value="3">freeCodeCamp Forum</option>
-                    <option value="4">Other</option>
-              </select>
-            </label>
-
-            <label>Provide a bio: <textarea></textarea></label>
+        <label for="profile-picture"
+          >Upload a profile picture: <input type="file" id="profile-picture"
+        /></label>
+        <label for="age"
+          >Input your age (years):
+          <input type="number" min="13" max="120" id="age"
+        /></label>
+        <label for="referrer"
+          >How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio"
+          >Provide a bio:
+          <textarea id="bio"></textarea>
+        </label>
       </fieldset>
       <input type="submit" value="Submit" />
     </form>
