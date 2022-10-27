@@ -47,6 +47,7 @@ select {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+  min-height: 2em;
 }
 
 .inline {
@@ -63,5 +64,4 @@ textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
-  min-height: 2em;
 }
